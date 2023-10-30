@@ -1,0 +1,49 @@
+.searchContainer {
+  align-items: center;
+  background-color: #41197f;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.btnComponent {
+  background-color: #fcc436;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  height: 30px;
+  letter-spacing: 1px;
+  margin: 10px;
+  text-transform: uppercase;
+  width: 95%;
+}
+
+.inputSearch {
+  border: 0.5px solid #e2d0fc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #41197f;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.radioInputs label {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.radioInputs label input {
+  margin: 5px;
+}

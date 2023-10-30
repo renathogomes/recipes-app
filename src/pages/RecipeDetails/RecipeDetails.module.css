@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btnShare {
+  background-color: transparent;
+  border: none;
+}
+
+.btnFav {
+  background-color: transparent;
+}
+
+.iconFav {
+  position: absolute;
+  right: 5vw;
+  width: 23px;
+  z-index: 1;
+}
+
+.iconShare {
+  padding-top: 1px;
+  position: absolute;
+  right: 15vw;
+  stroke-width: 10px;
+  z-index: 1;
+}
+
+.recipeImg {
+  filter: brightness(60%);
+  height: 200px;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  z-index: 0;
+}
+
+.recipeTitle {
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.recipeCategory {
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.titlesContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+.heading {
+  font-weight: 600;
+  padding: 10px 0 5px 20px;
+}
+
+.ingredientsList {
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  color: #1a1b1c;
+  line-height: 30px;
+  margin: 5px 15px;
+  padding: 5px 30px;
+}
+
+.spanAlcohol {
+  text-align: center;
+}
+
+.instructions {
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  color: #1a1b1c;
+  margin: 5px 15px;
+  padding: 20px;
+}
+
+iframe {
+  margin: 0 5vw;
+  width: 90%;
+}
+
+.spanShare {
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  padding-top: 45px;
+  position: absolute;
+  right: 3vw;
+  z-index: 10;
+}
+
+.btnStart {
+  background-color: #fcc436;
+  border: none;
+  border-radius: 5px;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  position: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.btnStart:disabled {
+  cursor: alias;
+  opacity: 0.5;
+}
+
+.bottomContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

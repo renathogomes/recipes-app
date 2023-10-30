@@ -1,0 +1,135 @@
+.btnFinish {
+  background-color: #fcc436;
+  border: none;
+  border-radius: 5px;
+  bottom: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  position: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.btnFinish:disabled {
+  cursor: alias;
+  opacity: 0.5;
+}
+
+.centralize {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btnShare {
+  background-color: transparent;
+  border: none;
+}
+
+.btnFav {
+  background-color: transparent;
+  border: none;
+}
+
+.iconFav {
+  position: absolute;
+  right: 5vw;
+  z-index: 1;
+}
+
+.iconShare {
+  padding-top: 2px;
+  position: absolute;
+  right: 15vw;
+  z-index: 1;
+}
+
+.recipeImg {
+  filter: brightness(60%);
+  height: 200px;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  z-index: 0;
+}
+
+.recipeTitle {
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.recipeCategory {
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.titlesContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+.heading {
+  font-weight: 600;
+  padding: 10px 0 5px 25px;
+}
+
+.ingredientsList {
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  color: #1a1b1c;
+  line-height: 30px;
+  margin: 5px 15px;
+  padding: 5px 30px;
+}
+
+.spanAlcohol {
+  padding-left: 15px;
+}
+
+.instructions {
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  color: #1a1b1c;
+  margin: 5px 15px;
+  padding: 20px;
+}
+
+iframe {
+  margin: 0 5vw;
+  width: 90%;
+}
+
+.ingredientContainer {
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  margin: 20px;
+  padding: 15px 10px 10px;
+
+}
+
+label {
+  line-height: 35px;
+}
+
+.input {
+  margin: 10px;
+}

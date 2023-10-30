@@ -1,0 +1,137 @@
+.btnIcons {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.btnIconsContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #797d86;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+}
+
+.btnContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btnIconsAll {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.btnIconsAll .subtitle {
+  margin-top: 2px;
+}
+
+.cardContainer {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.card {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #b8b8b8;
+  color: #222;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 166px;
+  width: 150px;
+}
+
+.card:hover {
+  opacity: 0.5;
+}
+
+.thumbnail {
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 134px;
+  width: 150px;
+}
+
+.name {
+  color: #41197f;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  overflow: hidden;
+  padding-top: 5px;
+}
+
+.bottomHeaderContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.bottomHeading {
+  color: #41197f;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+@media only screen and ( min-width : 700px ) {
+
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .btnIconsContainer {
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and ( min-width : 990px ) {
+
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 60%;
+  }
+
+  .btnIconsContainer {
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+}

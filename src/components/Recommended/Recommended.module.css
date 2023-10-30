@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  margin: 0 auto;
+  overflow-x: auto;
+  padding: 10px;
+  width: 90%;
+}
+
+.image {
+  background: lightgray -1.5px -53.761px / 123.306% 186.119% no-repeat;
+  border-radius: 5px 5px 0 0;
+  flex-shrink: 0;
+  height: 135px;
+  width: 163px;
+}
+
+.card {
+  border: 0.5px solid lightgray;
+  border-radius: 5px;
+}
+
+.title {
+  padding: 10px;
+}
